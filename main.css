@@ -1,0 +1,45 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+
+}
+
+#game {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 1px;
+}
+
+.case {
+  outline: 1px solid gray;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+}
+
+#footer {
+  font-size: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#id-player {
+  color:green;
+}
+
+.case:hover{
+  background-color: rgb(151, 163, 239);
+}
+
+
